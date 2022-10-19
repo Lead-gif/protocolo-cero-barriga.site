@@ -98,11 +98,12 @@ function postReply(id) {
         setCookie('fbreplies', JSON.stringify(fbreplies), today)
     }
 }
-/*
+
 setTimeout(function() {
     $('#add-to-cart').show()
 }, 1)
 var today = new Date()
 today.setDate(today.getFullYear() + 1)
+/*
 setCookie('returningVisitor', 'yes', today)
 */
