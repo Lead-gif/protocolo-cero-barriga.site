@@ -71,6 +71,7 @@ function handleReply(id) {
         ');">Responder</button></div></div>')
 }
 
+/*
 function postReply(id) {
     var obj = $('#reply-' + id)
     if (obj && obj.find('.fb-reply-input').val()) {
@@ -98,6 +99,7 @@ function postReply(id) {
         setCookie('fbreplies', JSON.stringify(fbreplies), today)
     }
 }
+*/
 
 setTimeout(function() {
     $('#add-to-cart').show()
