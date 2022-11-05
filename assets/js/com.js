@@ -1,4 +1,4 @@
-/* function loadMore() {
+function loadMore() {
     $('#more').show()
     $('.fb-comments-loadmore').hide().remove()
 }
@@ -28,6 +28,7 @@ function dateMinus(what) {
         round(newd.getMinutes()))
 }
 
+
 function round(what) {
     if (what < 10) {
         return '0' + what
@@ -35,6 +36,7 @@ function round(what) {
         return what
     }
 }
+/*
 $('like').on('click', function() {
     if ($(this).hasClass('liked')) {
         $(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text(parseInt($(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text()) - 1)
@@ -108,4 +110,4 @@ var today = new Date()
 today.setDate(today.getFullYear() + 1)
 
 setCookie('returningVisitor', 'yes', today)
-*/
+
